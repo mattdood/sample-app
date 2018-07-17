@@ -1,7 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-// universal css
+// Universal CSS
 
 body {
   padding-top: 60px;
@@ -23,7 +23,7 @@ textarea {
   margin-bottom: 10px;
 }
 
-// typography
+// Typography
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
@@ -50,7 +50,7 @@ p {
   line-height: 1.7em;
 }
 
-// header
+// Header
 
 #logo {
   float: left;
@@ -70,6 +70,37 @@ p {
 
 // Hide images
 
-img {
-  display: none;
+// img {
+//   display: none;
+// }
+
+// Footer
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
 }
