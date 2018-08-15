@@ -12,4 +12,9 @@ Rails.application.routes.draw do
 
   resources :users
   resources :account_activations, only: [:edit]
+<<<<<<< HEAD
+=======
+  resources :password_resets, only: [:new, :create, :edit, :update]
+
+>>>>>>> password-reset
 end
