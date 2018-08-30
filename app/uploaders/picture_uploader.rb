@@ -54,6 +54,4 @@ class PictureUploader < CarrierWave::Uploader::Base
   #   "something.jpg" if original_filename
   # end
 
-  Secret key access P4f4GjVOkS8XUE53TtxV+/SHzeMj+Fg59t9f6dRx
-  Access key ID AKIAIFBH27GN54FQCECA
 end
